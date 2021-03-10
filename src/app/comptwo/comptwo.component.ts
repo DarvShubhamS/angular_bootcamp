@@ -7,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ComptwoComponent implements OnInit {
 
+  //initial username
   data: String = "";
+
+  //initial boolean value to set button to disabled
   active: boolean = true
 
   //checking data to enable or disable a button
