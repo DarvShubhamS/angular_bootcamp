@@ -1,5 +1,15 @@
 # Angular Assignement
 
+### Questions 3,4,5,6 Solutions: -
+
+#### TS FILE
+
+* https://github.com/DarvShubhamS/angular_bootcamp/blob/master/src/app/comptwo/comptwo.component.ts
+
+#### HTML FILE
+
+* https://github.com/DarvShubhamS/angular_bootcamp/blob/master/src/app/comptwo/comptwo.component.html
+
 ## Q1.Create a new Angular app using Angular CLI
 
 ### Command:- ng new MyApp2
