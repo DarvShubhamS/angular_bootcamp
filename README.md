@@ -42,12 +42,3 @@
 
 
 
-### Above Questions Solutions: -
-
-#### TS FILE
-
-* https://github.com/DarvShubhamS/angular_bootcamp/blob/master/src/app/comptwo/comptwo.component.ts
-
-#### HTML FILE
-
-* https://github.com/DarvShubhamS/angular_bootcamp/blob/master/src/app/comptwo/comptwo.component.html
