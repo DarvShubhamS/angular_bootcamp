@@ -1,6 +1,8 @@
-# Angular1
+# Angular Assignement
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
+## Q1.Create a new Angular app using Angular CLI
+
+### Command:- ng new MyApp2
 
 ## Development server
 
@@ -14,14 +16,26 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Q2.Create new component using Angular CLI.
 
-## Running end-to-end tests
+<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/master/src/assets/ss/ss1.JPG" />
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Q3. Create a input field that captures user name
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Q4. Create two-way data binding for entered user name
+
+## Q5. Create a button that clears the user name
+
+## Q6. Add condition to enable the button only if input field has some value.
+
+### Above Questions Solutions: -
+
+#### TS FILE
+
+* https://github.com/DarvShubhamS/angular_bootcamp/blob/master/src/app/comptwo/comptwo.component.ts
+
+#### HTML FILE
+
+* https://github.com/DarvShubhamS/angular_bootcamp/blob/master/src/app/comptwo/comptwo.component.html
