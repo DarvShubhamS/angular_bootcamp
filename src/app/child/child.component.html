@@ -1,0 +1,17 @@
+<h1>Child Component</h1>
+<h2>data recieved from - {{data}}</h2>
+<button (click)="event_triggered()">click me to pass data to parent</button>
+<br>
+<br>
+<label>Checking Events Input</label><br>
+<span (mouseenter)="Onmousentered()">Move Your Mouse Here To Trigger Event</span><br>
+<input type="text" (keyup)=" Onkeyup()" placeholder="press key up here">
+<input type="text" (keydown)="Onkeydown()" placeholder="press key down here">
+<input type="text" (blur)="OnBlur()" placeholder="on blur event">
+<br>
+<br>
+<input type="text" #refs>
+<button (click)="fnc(refs)">testing refs</button><br>
+<input type="text" #text>
+<button (click)="fnc1()">testing refs view child</button>
+<h1>{{val}}</h1>
