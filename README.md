@@ -1,24 +1,25 @@
-# Event binding Assignement
+# Session : Directives Assignement
 
-* Create a event binding component and
-  Use at  least two inbuilt events (Example: click, keyup,etc..)
+### Solution Files:-
 
-* Create two component (parent component and child component)
+#### HTML FILE:- https://github.com/DarvShubhamS/angular_bootcamp/blob/assignement_3/src/app/learning-directive/learning-directive.component.html
+
+#### TS FILE:- https://github.com/DarvShubhamS/angular_bootcamp/blob/assignement_3/src/app/learning-directive/learning-directive.component.ts
+
+## Exercise:-
+
+* Show and hide a div on the basis of click using structural directive.
+
+* Change the class of div on the basis of click using attribute directive.
+
+* Iterate a list of Item using structural directive.
+
+* Make a input box and set its default value using ngModel.
+
+* Create custom directive and change the innerText of the element to  ‘ Hello , I am Custom Directive’.
 
 
-  Pass data from parent component to child component ( using @Input)
-  
-  
-  Pass data from child component to parent component ( using @Output)
+## Exercise Screenshots-
 
-## Solution Files
-
-### Parent Component Files
-
-https://github.com/DarvShubhamS/angular_bootcamp/tree/assignement_2/src/app/parent
-
-### Child Component Files
-
-#### HTML FILE:- https://github.com/DarvShubhamS/angular_bootcamp/blob/assignement_2/src/app/child/child.component.html
-
-#### TS FILE:- https://github.com/DarvShubhamS/angular_bootcamp/blob/assignement_2/src/app/child/child.component.ts
+<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/assignement_3/src/assets/ss/ss1.JPG" />
+<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/assignement_3/src/assets/ss/ss2.JPG" />
