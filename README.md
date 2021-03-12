@@ -4,6 +4,8 @@
 
 #### HTML FILE:- https://github.com/DarvShubhamS/angular_bootcamp/blob/assignement_3/src/app/learning-directive/learning-directive.component.html
 
+#### CSS File:- https://github.com/DarvShubhamS/angular_bootcamp/blob/assignement_3/src/app/learning-directive/learning-directive.component.css
+
 #### TS FILE:- https://github.com/DarvShubhamS/angular_bootcamp/blob/assignement_3/src/app/learning-directive/learning-directive.component.ts
 
 #### Custom Directive File :- https://github.com/DarvShubhamS/angular_bootcamp/blob/assignement_3/src/app/mydirective.directive.ts
