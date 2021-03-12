@@ -1,0 +1,37 @@
+<h1>learning-directive!</h1>
+
+<hr>
+<h4>Show and hide a div on the basis of click using structural directive.</h4>
+<div *ngIf="show; else not_true">
+    <h3>Using Ng If</h3>
+</div>
+<ng-template #not_true>
+    <h3>Div Hidden</h3>
+</ng-template>
+<button (click)=" onShow()">Click Here Show hidden div Content</button>
+<hr>
+<br><br>
+
+<h4>Change the class of div on the basis of click using attribute directive.</h4>
+<div class="default_class" [ngClass]="setClass"></div>
+<button (click)="setClassRed()">Change Class To Red</button>
+<button (click)="setClassGreen()">Change Class To Green</button>
+<hr>
+
+<br>
+<h4>Iterate a list of Item using structural directive.</h4>
+<ul *ngFor="let val of list">
+    <li>
+        <span>Id:{{val.id}}</span><br>
+        <span>Name:{{val.name}}</span>
+    </li>
+</ul>
+<hr>
+
+<h4>Make a input box and set its default value using ngModel.</h4>
+<input type="text" [(ngModel)]="data">
+<h4>{{data}}</h4>
+<hr>
+
+<h4>Create custom directive and change the innerText of the element to ‘ Hello , I am Custom Directive’.</h4>
+<h2 appMydirective></h2>
