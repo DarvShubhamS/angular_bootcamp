@@ -6,6 +6,8 @@
 
 #### TS FILE:- https://github.com/DarvShubhamS/angular_bootcamp/blob/assignement_3/src/app/learning-directive/learning-directive.component.ts
 
+#### Custom Directive File :- https://github.com/DarvShubhamS/angular_bootcamp/blob/assignement_3/src/app/mydirective.directive.ts
+
 ## Exercise:-
 
 * Show and hide a div on the basis of click using structural directive.
