@@ -5,7 +5,8 @@ import { AppComponent } from './app.component';
 import { Parent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { LearningDirectiveComponent } from './learning-directive/learning-directive.component';
-import { MydirectiveDirective } from './mydirective.directive'
+import { MydirectiveDirective } from './mydirective.directive';
+import { LearningLifecycleHooksComponent } from './learning-lifecycle-hooks/learning-lifecycle-hooks.component'
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { MydirectiveDirective } from './mydirective.directive'
     Parent,
     ChildComponent,
     LearningDirectiveComponent,
-    MydirectiveDirective
+    MydirectiveDirective,
+    LearningLifecycleHooksComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,10 @@
 <h1>Root</h1>
-<hr>
+<!-- <hr>
 <app-parent> </app-parent>
 <hr>
-<app-learning-directive></app-learning-directive>
+<app-learning-directive></app-learning-directive> -->
+<input type="text" [(ngModel)]="My_Property">
+<p>{{My_Property}}</p>
+<app-learning-lifecycle-hooks [data_from_parent]="My_Property">
+    <p #projected>Content Projected:- {{My_Property}}</p>
+</app-learning-lifecycle-hooks>
