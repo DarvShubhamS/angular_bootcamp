@@ -16,7 +16,7 @@ https://github.com/DarvShubhamS/angular_bootcamp/blob/lifecycle/src/app/learning
 
 ### HTML file
 
-https://github.com/DarvShubhamS/angular_bootcamp/blob/lifecycle/src/app/learning-lifecycle-hooks/learning-lifecycle-hooks.component.ts
+https://github.com/DarvShubhamS/angular_bootcamp/blob/lifecycle/src/app/learning-lifecycle-hooks/learning-lifecycle-hooks.component.html
 
 
 ### ROOT PARENT FILES
