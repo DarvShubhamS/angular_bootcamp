@@ -1,24 +1,26 @@
-# Event binding Assignement
+# Session : Component lifecycle Assignement
 
-* Create a event binding component and
-  Use at  least two inbuilt events (Example: click, keyup,etc..)
+* Write a component and console log order In which all lifecyle events occur.
 
-* Create two component (parent component and child component)
+<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/lifecycle/src/assets/ss/ss3.JPG" />
 
+* Pass data between two components using @Input() and implement the preferred lifecyle method for detecting changes.
 
-  Pass data from parent component to child component ( using @Input)
-  
-  
-  Pass data from child component to parent component ( using @Output)
+  We Use **ngOnChanges Life Cycle** Method For Detecting Changes whenever our @Input bound Properties are changed.
 
 ## Solution Files
 
-### Parent Component Files
+### TS FILE
 
-https://github.com/DarvShubhamS/angular_bootcamp/tree/assignement_2/src/app/parent
+https://github.com/DarvShubhamS/angular_bootcamp/blob/lifecycle/src/app/learning-lifecycle-hooks/learning-lifecycle-hooks.component.ts
 
-### Child Component Files
+### HTML file
 
-#### HTML FILE:- https://github.com/DarvShubhamS/angular_bootcamp/blob/assignement_2/src/app/child/child.component.html
+https://github.com/DarvShubhamS/angular_bootcamp/blob/lifecycle/src/app/learning-lifecycle-hooks/learning-lifecycle-hooks.component.ts
 
-#### TS FILE:- https://github.com/DarvShubhamS/angular_bootcamp/blob/assignement_2/src/app/child/child.component.ts
+
+### ROOT PARENT FILES
+
+https://github.com/DarvShubhamS/angular_bootcamp/blob/lifecycle/src/app/app.component.html
+
+https://github.com/DarvShubhamS/angular_bootcamp/blob/lifecycle/src/app/app.component.ts
