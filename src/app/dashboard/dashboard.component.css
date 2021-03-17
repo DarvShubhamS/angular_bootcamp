@@ -1,0 +1,12 @@
+.dash {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    border:1px solid black
+}
+
+table th,td {
+    border:1px solid black
+}

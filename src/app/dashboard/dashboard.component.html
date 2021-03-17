@@ -1,0 +1,18 @@
+<div class="dash">
+    <h1>Welcome User</h1>
+    <h3>Click Below To Add A Product</h3>
+    <button (click)="routing()">Create Product</button>
+    <hr>
+    <h2>Availaible Products</h2>
+    <table *ngFor="let el of availaible_products">
+        <tr>
+            <th>ID</th>
+            <th>PRODUCT_NAME</th>
+        </tr>
+        <tr>
+            <td>{{el.id}}</td>
+            <td>{{el.item}}</td>
+        </tr>
+
+    </table>
+</div>
