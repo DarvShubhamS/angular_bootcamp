@@ -1,27 +1,26 @@
-# Practice
+# Practice Exercise
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
+Practice parent child relationship using viewchild.
+- Create simple angular app with listing and detail page(routeparams).
+- Implement observable pattern using basic operators in above app. 
 
-## Development server
+### Files:-
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Listing Component :- https://github.com/DarvShubhamS/angular_bootcamp/tree/practice/src/app/listing
 
-## Code scaffolding
+- Details Component :- https://github.com/DarvShubhamS/angular_bootcamp/tree/practice/src/app/details
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Child Component For View Child :- https://github.com/DarvShubhamS/angular_bootcamp/tree/practice/src/app/view-child
 
-## Build
+- Observable Component :- https://github.com/DarvShubhamS/angular_bootcamp/tree/practice/src/app/learning-obs
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- Routing File :- https://github.com/DarvShubhamS/angular_bootcamp/blob/practice/src/app/app-route.module.ts
 
-## Running unit tests
+- Data Service File:- https://github.com/DarvShubhamS/angular_bootcamp/blob/practice/src/app/data.service.ts
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+#### Screenshots:-
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/practice/src/assets/ss/ss1.JPG" />
+<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/practice/src/assets/ss/ss2.JPG" />
+<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/practice/src/assets/ss/ss3.JPG" />
