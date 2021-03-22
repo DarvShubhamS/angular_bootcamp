@@ -1,0 +1,32 @@
+<br>
+<h2>Reactive Form</h2><br>
+<form [formGroup]="myForm" (ngSubmit)="onSubmit()" ngNativeValidate>
+    <div id="frm_group">
+        <label for="email">Email</label><br><br>
+        <input type="email" name="email" formControlName="email"><br>
+        <span *ngIf="myForm.get('email').invalid && myForm.get('email').touched">Please Enter Valid Email</span><br><br>
+
+        <label for="password">Password</label><br><br>
+        <input type="password" name="password" formControlName="password"><br>
+        <span *ngIf="myForm.get('password').invalid && myForm.get('password').touched">Password should not start with
+            Number,Password Length should be of
+            minimum 8 , contain atleast one uppercase and lowercase letter</span><br><br>
+
+        <label>Gender</label><br><br>
+        <div *ngFor="let val of gender">
+            <label for="gender">{{val}}</label><br>
+            <input type="radio" name="gender" [value]="val" formControlName="gender">
+        </div><br>
+
+        <label for="city">City</label><br>
+        <select name="city" formControlName="city">
+            <option value="delhi">Delhi</option>
+            <option value="Noida">Noida</option>
+            <option value="Gurugram">Gurugram</option>
+        </select><br><br>
+
+        <input type="file" name="file_image" formControlName="file"><br><br>
+
+    </div>
+    <button type="submit" [disabled]="myForm.invalid" id="sbmt_bttn">Submit Data</button>
+</form>

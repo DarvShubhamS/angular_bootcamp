@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    padding: 0;
+    margin:0;
+    text-align: center;
+}
+
+body {
+
+}
+input.ng-touched.ng-invalid{
+    border: 5px solid red;
+}
+
+
+form {
+    border:1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 0 auto;
+    width: 40%;
+    background: linear-gradient(#c31432,#240b36);
+    color: white;
+    
+}
+
+form input,select {
+    border-radius: 5px;
+    height: 20px;
+    
+}
+
+span {
+    color: yellow;
+}
+
+
+#sbmt_bttn {
+    padding: 10px;
+    border:1px solid gold;
+    background:white;
+
+}
+
