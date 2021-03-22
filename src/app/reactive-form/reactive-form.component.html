@@ -8,8 +8,7 @@
 
         <label for="password">Password</label><br><br>
         <input type="password" name="password" formControlName="password"><br>
-        <span *ngIf="myForm.get('password').invalid && myForm.get('password').touched">Password should not start with
-            Number,Password Length should be of
+        <span *ngIf="myForm.get('password').invalid && myForm.get('password').touched">Password Length should be of
             minimum 8 , contain atleast one uppercase and lowercase letter</span><br><br>
 
         <label>Gender</label><br><br>
