@@ -24,3 +24,9 @@
 
 - Pipe Components:- https://github.com/DarvShubhamS/angular_bootcamp/tree/pipes_and_html/src/app/pipes
 - Custom Pipe:- https://github.com/DarvShubhamS/angular_bootcamp/blob/pipes_and_html/src/app/vowels.pipe.ts
+
+
+### Screenshots:-
+
+<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/pipes_and_html/src/assets/ss/ss6.JPG" />
+<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/pipes_and_html/src/assets/ss/ss7.JPG" />
