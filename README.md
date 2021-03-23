@@ -1,27 +1,26 @@
-# Forms
+# Introduction to pipes and HTTP client
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
+## Exercise
 
-## Development server
+- Create a pipe for date formatting (Sep 10, 1995).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Convert a string  to title case i.e first letter of word should be in capital . 
 
-## Code scaffolding
+- Create a pipe that take a string and reverse the order of letter.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Create a pipe which return no of occurrence  of vowel in string?( String =  "Apple is on table" , Output should be a:2 e:2 i:1 o:1 u:0)
 
-## Build
+- Using HttpClient make a request to given url and  get the data and show the response in tabular form in a component (Url - https://jsonplaceholder.typicode.com/posts/1/comments)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+#### Files
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### Http
+- Http Component:- https://github.com/DarvShubhamS/angular_bootcamp/tree/pipes_and_html/src/app/http
+- Service For Http:- https://github.com/DarvShubhamS/angular_bootcamp/blob/pipes_and_html/src/app/http.service.ts
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+#### Pipes
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Pipe Components:- https://github.com/DarvShubhamS/angular_bootcamp/tree/pipes_and_html/src/app/pipes
+- Custom Pipe:- https://github.com/DarvShubhamS/angular_bootcamp/blob/pipes_and_html/src/app/vowels.pipe.ts
