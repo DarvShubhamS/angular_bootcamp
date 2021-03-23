@@ -1,0 +1,13 @@
+<h2>Learning Pipes</h2><br>
+<h3>Before Using Pipe Date is :- {{date}}</h3>
+<h3>Using Pipe Date Today is:- {{date | date}}</h3>
+<br>
+<br>
+<h3>Making String Input to Title Case Using Pipes</h3><br>
+<h4>Enter Some Data In Input Box</h4><br>
+<input type="text" [(ngModel)]='str'><br>
+<p>{{str | titlecase}}</p>
+<br>
+<br>
+<h3>Custom Pipe</h3>
+<p>{{str | lowercase | vowels | json}}</p>

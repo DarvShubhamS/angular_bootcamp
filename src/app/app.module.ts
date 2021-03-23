@@ -7,7 +7,11 @@ import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
+import { HttpComponent } from './http/http.component';
+import { HttpClientModule } from '@angular/common/http'
+import { HttpService } from './http.service';
+import { VowelsPipe } from './vowels.pipe';
+import { PipesComponent } from './pipes/pipes.component';
 
 let MyRoutes: Routes = [
   {
@@ -15,6 +19,12 @@ let MyRoutes: Routes = [
   },
   {
     path: 'reactive-form', component: ReactiveFormComponent
+  },
+  {
+    path: 'http', component: HttpComponent
+  },
+  {
+    path: 'pipes', component: PipesComponent
   }
 ]
 
@@ -24,15 +34,19 @@ let MyRoutes: Routes = [
     AppComponent,
     TemplateFormComponent,
     ReactiveFormComponent,
-    NavigationComponent
+    NavigationComponent,
+    HttpComponent,
+    VowelsPipe,
+    PipesComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
+    HttpClientModule,
     RouterModule.forRoot(MyRoutes)
   ],
-  providers: [],
+  providers: [HttpService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

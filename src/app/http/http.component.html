@@ -1,0 +1,22 @@
+<h2>Learning Http</h2>
+<h2 *ngIf="loading">Loading Data Please Wait......</h2><br>
+<h3>Data fetched from server in Json Format</h3>
+<p>{{data | json}}</p>
+<br>
+<br>
+<h2>Fetched Data Shown In Table</h2>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>EMAIL</th>
+        <th>BODY</th>
+    </tr>
+
+    <tr *ngFor="let el of data">
+        <td>{{el.id}}</td>
+        <td>{{el.name}}</td>
+        <td>{{el.email}}</td>
+        <td>{{el.body}}</td>
+    </tr>
+</table>
