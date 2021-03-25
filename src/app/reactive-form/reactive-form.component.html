@@ -1,31 +1,38 @@
 <br>
-<h2>Reactive Form</h2><br>
+
 <form [formGroup]="myForm" (ngSubmit)="onSubmit()" ngNativeValidate>
     <div id="frm_group">
-        <label for="email">Email</label><br><br>
-        <input type="email" name="email" formControlName="email"><br>
-        <span *ngIf="myForm.get('email').invalid && myForm.get('email').touched">Please Enter Valid Email</span><br><br>
+        <div id="main_form_header">
+            <h2>Reactive Form</h2>
+        </div>
+        <br>
+        <label for="email">Email*</label>
+        <input type="email" name="email" formControlName="email" id='inpt1'><br>
+        <span *ngIf="myForm.get('email').invalid && myForm.get('email').touched">Please Enter Valid Email</span><br>
 
-        <label for="password">Password</label><br><br>
-        <input type="password" name="password" formControlName="password"><br>
+        <label for="password">Password*</label>
+        <input type="password" name="password" formControlName="password" id='inpt2'><br>
         <span *ngIf="myForm.get('password').invalid && myForm.get('password').touched">Password Length should be of
-            minimum 8 , contain atleast one uppercase and lowercase letter</span><br><br>
+            minimum 8 , contain atleast one uppercase and lowercase letter</span><br>
 
-        <label>Gender</label><br><br>
+        <label>Gender*</label>
         <div *ngFor="let val of gender">
-            <label for="gender">{{val}}</label><br>
+            <label for="gender"><span id="radio_span">{{val}}</span></label>
             <input type="radio" name="gender" [value]="val" formControlName="gender">
         </div><br>
 
-        <label for="city">City</label><br>
+        <label for="city">City*</label>
         <select name="city" formControlName="city">
             <option value="delhi">Delhi</option>
             <option value="Noida">Noida</option>
             <option value="Gurugram">Gurugram</option>
         </select><br><br>
 
-        <input type="file" name="file_image" formControlName="file"><br><br>
+        <label>Select Image*</label>
+        <input type="file" name="file_image" formControlName="file"><br>
+        <span *ngIf="myForm.get('file').invalid && myForm.get('file').touched">Please Select A Image</span>
 
-    </div>
+    </div><br>
+    <hr>
     <button type="submit" [disabled]="myForm.invalid" id="sbmt_bttn">Submit Data</button>
 </form>

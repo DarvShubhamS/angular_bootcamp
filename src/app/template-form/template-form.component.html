@@ -1,35 +1,38 @@
 <br>
-<h2>Template Form</h2><br>
-
 <form (ngSubmit)="onSubmit(templateform)" #templateform="ngForm" ngNativeValidate>
     <div id="frm_group" ngModelGroup="frm_group">
+        <div id="main_form_header">
+            <h2>Template Form</h2>
+        </div>
+        <br>
+        <label for="email">Email*</label>
+        <input type="email" name="email" ngModel required pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$" #email='ngModel'
+            id='inpt1'><br>
+        <span *ngIf="email.invalid && email.touched">Please Enter Valid Email</span><br>
 
-        <label for="email">Email</label><br><br>
-        <input type="email" name="email" ngModel required pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$"
-            #email='ngModel'><br>
-        <span *ngIf="email.invalid && email.touched">Please Enter Valid Email</span><br><br>
-
-        <label for="password">Password</label><br><br>
+        <label for="password">Password*</label>
         <input type="password" name="password" ngModel required #pass='ngModel'
-            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"><br>
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" id='inpt2'><br>
         <span *ngIf="pass.invalid && pass.touched">Password Length should be of
-            minimum 8 , contain atleast one uppercase and lowercase letter</span><br><br>
+            minimum 8 , contain atleast one uppercase and lowercase letter</span><br>
 
-        <label>Gender</label><br><br>
+        <label>Gender*</label>
         <div *ngFor="let val of gender">
-            <label for="gender">{{val}}</label><br>
+            <label for="gender"><span id="radio_span">{{val}}</span> </label>
             <input type="radio" name="gender" [value]="val" ngModel required>
         </div><br>
 
-        <label for="city">City</label><br>
+        <label for="city">City*</label>
         <select name="city" [ngModel]='default_city' required>
             <option value="delhi">Delhi</option>
             <option value="Noida">Noida</option>
             <option value="Gurugram">Gurugram</option>
         </select><br><br>
 
-        <input type="file" name="file_image" ngModel required><br><br>
-
-    </div>
+        <label>Select Image*</label>
+        <input type="file" name="file_image" ngModel required #img='ngModel'><br>
+        <span *ngIf="img.invalid && img.touched">Please Select An Image</span>
+    </div><br>
+    <hr>
     <button type="submit" [disabled]="!templateform.valid" id="sbmt_bttn">Submit Data</button>
 </form>
