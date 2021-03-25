@@ -22,6 +22,7 @@
 
 
 - After setting up environment variables , we have to make changes in angular.json file and add configuration in under build in "build" and "serve".
+- We can now run our project in different environement using command ng serve --configuration=environement_name
 
 ### screenshots
 
