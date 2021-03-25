@@ -24,10 +24,4 @@ Create the form as template driven and reactive form.
 - Reactive Forms:- https://github.com/DarvShubhamS/angular_bootcamp/tree/form/src/app/reactive-form
 - Template Forms:- https://github.com/DarvShubhamS/angular_bootcamp/tree/form/src/app/template-form
 
-#### Screenshots
 
-<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/form/src/assets/ss/ss1.JPG"/>
-<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/form/src/assets/ss/ss2.JPG"/>
-<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/form/src/assets/ss/ss3.JPG"/>
-<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/form/src/assets/ss/ss4.JPG"/>
-<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/form/src/assets/ss/ss5.JPG"/>
