@@ -1,3 +1,6 @@
 export const environment = {
-  production: true
+  production: true,
+  hostUrl: 'http://localhost:5000/',
+  username: 'userProd'
+
 };

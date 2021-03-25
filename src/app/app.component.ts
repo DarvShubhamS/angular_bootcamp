@@ -1,6 +1,7 @@
 import { AfterViewInit, Component, DoCheck, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Authentication } from './auth.service';
+import { environment } from '../environments/environment'
 
 @Component({
   selector: 'app-root',
@@ -8,6 +9,8 @@ import { Authentication } from './auth.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit, DoCheck {
+  hostUrl = environment.hostUrl
+  hostName = environment.username
   title = 'Advanced-Angular';
 
   login_status: boolean = false

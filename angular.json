@@ -29,6 +29,14 @@
             "scripts": []
           },
           "configurations": {
+            "developer": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.developer.ts"
+                }
+              ]
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -64,6 +72,9 @@
             "browserTarget": "Advanced-Angular:build"
           },
           "configurations": {
+            "developer": {
+              "browserTarget": "Advanced-Angular:build:developer"
+            },
             "production": {
               "browserTarget": "Advanced-Angular:build:production"
             }
