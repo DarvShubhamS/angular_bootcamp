@@ -1,27 +1,33 @@
-# Forms
+# Forms Assignements
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
+### Exercise:-
 
-## Development server
+Create a Sign up which take following inputs
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Email and Password
 
-## Code scaffolding
+- Radio button for gender
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Select dropdown for city
 
-## Build
+- An image upload.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- Each field is mandatory and password and email should have pattern match
 
-## Running unit tests
+- Form should not be submitted until all fields are valids
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Create the form as template driven and reactive form.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+#### Files
 
-## Further help
+- Reactive Forms:- https://github.com/DarvShubhamS/angular_bootcamp/tree/form/src/app/reactive-form
+- Template Forms:- https://github.com/DarvShubhamS/angular_bootcamp/tree/form/src/app/template-form
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#### Screenshots
+
+<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/form/src/assets/ss/ss1.JPG"/>
+<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/form/src/assets/ss/ss2.JPG"/>
+<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/form/src/assets/ss/ss3.JPG"/>
+<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/form/src/assets/ss/ss4.JPG"/>
+<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/form/src/assets/ss/ss5.JPG"/>
