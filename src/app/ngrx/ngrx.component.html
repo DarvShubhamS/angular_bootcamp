@@ -1,0 +1,14 @@
+<br>
+<h2>Using Ngrx for State Management!</h2>
+<button (click)='addData()' id="add_data">Add Data</button>
+<button (click)='deleteData()'>Delete All Data</button><br><br>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Id</th>
+    </tr>
+    <tr *ngFor="let user of (users | async).users">
+        <td>{{user.name}}</td>
+        <td>{{user.id}}</td>
+    </tr>
+</table>

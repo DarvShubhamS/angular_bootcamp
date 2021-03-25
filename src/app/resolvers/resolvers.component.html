@@ -1,0 +1,14 @@
+<br>
+<h2>Data Fetched Via Resolvers</h2>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Email</th>
+    </tr>
+    <tr *ngFor='let user of myData'>
+        <td>{{user.id}}</td>
+        <td>{{user.name}}</td>
+        <td>{{user.email}}</td>
+    </tr>
+</table>

@@ -1,0 +1,19 @@
+.main_dashboard_container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#welcome {
+    font-size: 8rem;
+}
+button {
+    background: #0088AC;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    border: 1px solid #0088AC;
+    border-radius: 25px;
+    margin: 0 auto;
+}

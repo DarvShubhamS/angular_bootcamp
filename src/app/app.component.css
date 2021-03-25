@@ -1,0 +1,30 @@
+.main_nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background: #24252A;
+    
+}
+
+.main_nav_links ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+
+button {
+    margin: 10px;
+    background: #0088AC;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    border: 1px solid #0088AC;
+    border-radius: 25px;
+}
