@@ -1,6 +1,6 @@
 # Advanced Angular Assignement
 
-- mplement Authguard and navigate to 404 page if user is not authenticated 
+- Implement Authguard and navigate to 404 page if user is not authenticated 
 
 - Implement Resolver and show the data on the UI.
 
