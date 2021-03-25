@@ -8,7 +8,7 @@
 <img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/build_process/src/assets/ss/ss5.JPG" />
 
 
-### Bundled File created:-
+### Bundled File created:- https://github.com/DarvShubhamS/angular_bootcamp/tree/build_process/dist/Advanced-Angular
 
 
 - Configure Environment file to maintain specific URL related to your environment.
