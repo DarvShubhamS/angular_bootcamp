@@ -7,7 +7,7 @@ import { Authentication } from './auth.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit, DoCheck {
+export class AppComponent implements OnInit {
   title = 'Advanced-Angular';
 
   login_status: boolean = false
@@ -17,16 +17,11 @@ export class AppComponent implements OnInit, DoCheck {
   }
 
   ngOnInit() {
-    this.login_status = this.authservice.loggedIn
+
 
 
   }
 
-  ngDoCheck() {
-
-    this.login_status = false
-    console.log(this.login_status)
-  }
 
 
 
