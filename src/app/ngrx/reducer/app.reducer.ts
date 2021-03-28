@@ -1,5 +1,5 @@
 import { Action } from '@ngrx/store'
-import { DataModel } from '../model/mymodel.model'
+import { DataModel } from '../model/app.model'
 import * as MyActions from '../actions/myactions.action'
 //setting initial state
 const initialState = {

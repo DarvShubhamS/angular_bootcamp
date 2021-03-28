@@ -1,4 +1,4 @@
-import { DataModel } from '../model/mymodel.model'
+import { DataModel } from '../model/app.model'
 
 export interface AppState {
     readonly usersList: DataModel[];

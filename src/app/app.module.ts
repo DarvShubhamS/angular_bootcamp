@@ -11,7 +11,7 @@ import { AuthGuard } from './auth-guard.service';
 import { MyHttp } from './http.service';
 import { MyResolver } from './resolver.service';
 import { ResolversComponent } from './resolvers/resolvers.component';
-import { myReducer } from './ngrx/reducer/myreducer.reducer';
+import { myReducer } from './ngrx/reducer/app.reducer';
 import { NgrxComponent } from './ngrx/ngrx.component';
 
 let myRoutes: Routes = [
