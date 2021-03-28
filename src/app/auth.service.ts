@@ -8,6 +8,7 @@ export class Authentication {
 
     logIn() {
         this.loggedIn = true
+        alert('logged in successfuly....')
 
     }
 

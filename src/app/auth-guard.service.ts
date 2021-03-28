@@ -13,7 +13,6 @@ export class AuthGuard implements CanActivate {
         let login_status: boolean = this.authservice.isAuthenticated();
 
         if (login_status) {
-            alert("logged in successfully")
             return true
         }
         else {
