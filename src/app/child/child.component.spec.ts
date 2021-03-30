@@ -47,4 +47,10 @@ describe('ChildComponent', () => {
     expect(fixture.nativeElement.querySelector('h2').textContent).not.toEqual('')
   })
 
+  //checking heading is Angular Unit Test
+
+  it('headins is Angular Unit Test', () => {
+    expect(fixture.nativeElement.querySelector('h2').textContent).toEqual('Angular Unit Test')
+  })
+
 });
